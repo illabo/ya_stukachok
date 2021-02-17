@@ -13,7 +13,9 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   ya_stukachok_platform_interface:
-    path: ../ya_stukachok_platform_interface
+    git:
+      url: git@github.com:illabo/ya_stukachok.git
+      path: ya_stukachok_web
 
 dev_dependencies:
   flutter_test:
