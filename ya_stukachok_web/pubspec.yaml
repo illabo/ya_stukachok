@@ -1,0 +1,27 @@
+name: ya_stukachok_web
+description: Web only wrapper for Yandex.Metrika.
+version: 0.0.1
+author: Ilya Yachin
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  ya_stukachok_platform_interface:
+    path: ../ya_stukachok_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: YaStukachokWeb
+        fileName: ya_stukachok_web.dart
