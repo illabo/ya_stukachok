@@ -178,9 +178,11 @@ packages:
   ya_stukachok_platform_interface:
     dependency: transitive
     description:
-      path: "../../ya_stukachok_platform_interface"
-      relative: true
-    source: path
+      path: ya_stukachok_platform_interface
+      ref: HEAD
+      resolved-ref: b427b419823c2c85e7b702f92f3571392a9fdf7b
+      url: "git@github.com:illabo/ya_stukachok.git"
+    source: git
     version: "0.0.1"
   ya_stukachok_web:
     dependency: "direct main"
