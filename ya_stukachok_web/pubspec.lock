@@ -173,8 +173,8 @@ packages:
     description:
       path: ya_stukachok_platform_interface
       ref: HEAD
-      resolved-ref: b427b419823c2c85e7b702f92f3571392a9fdf7b
-      url: "git@github.com:illabo/ya_stukachok.git"
+      resolved-ref: dc3485000a4ba886235dca44c4ad84fe78a8ba58
+      url: "https://github.com/illabo/ya_stukachok.git"
     source: git
     version: "0.0.1"
 sdks:
