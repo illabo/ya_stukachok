@@ -1,8 +1,6 @@
 @JS()
 library ya_stukachok;
 
-import 'dart:js';
-
 import 'package:js/js.dart';
 
 @JS('ym.apply')
