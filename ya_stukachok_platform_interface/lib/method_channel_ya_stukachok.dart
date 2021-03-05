@@ -23,7 +23,7 @@ class MethodChannelYaStukachok extends YaStukachokPlatform {
 
   @override
   void reachGoal(
-    String counterId,
+    int counterId,
     String target,
     Map<String, dynamic> parameters,
     Function callback,

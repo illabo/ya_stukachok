@@ -22,7 +22,7 @@ abstract class YaStukachokPlatform extends PlatformInterface {
   void ecommerceAction(EcommerceUnit action);
 
   void reachGoal(
-    String counterId,
+    int counterId,
     String target,
     Map<String, dynamic> parameters,
     Function callback,
