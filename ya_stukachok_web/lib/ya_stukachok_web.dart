@@ -26,4 +26,14 @@ class YaStukachokWeb extends YaStukachokPlatform {
     }
     dataLayer.add(jsify(action.toJson()));
   }
+
+  @override
+  void reachGoal(
+    String counterId,
+    String target,
+    Map<String, dynamic> parameters,
+    Function callback,
+  ) {
+    callMetrika(null, [counterId, 'reachGoal', jsify(parameters), callback]);
+  }
 }

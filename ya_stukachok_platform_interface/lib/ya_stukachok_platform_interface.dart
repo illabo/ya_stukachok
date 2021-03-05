@@ -21,6 +21,10 @@ abstract class YaStukachokPlatform extends PlatformInterface {
 
   void ecommerceAction(EcommerceUnit action);
 
-  // ? Maybe add more methods available in Metrika?
-  // void reachGoal(String counterId, String target, Map<String, dynamic> options);
+  void reachGoal(
+    String counterId,
+    String target,
+    Map<String, dynamic> parameters,
+    Function callback,
+  );
 }
