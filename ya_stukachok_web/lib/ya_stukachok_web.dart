@@ -34,6 +34,6 @@ class YaStukachokWeb extends YaStukachokPlatform {
     Map<String, dynamic> parameters,
     Function callback,
   ) {
-    callMetrika(null, [counterId, 'reachGoal', jsify(parameters), callback]);
+    callMetrika(null, [counterId, 'reachGoal', target, jsify(parameters), callback]);
   }
 }
