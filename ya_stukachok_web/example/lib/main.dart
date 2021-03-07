@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
                   0000000,
                   '/',
                   {
-                    'callback': () => print("Calling back"),
+                    'callback': () => print("Calling back for hit"),
                     'params': {
                       'order_price': 10,
                       'currency': 'derevyanny',
@@ -71,6 +71,14 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                   ),
+                );
+                stukachInstance.reachGoal(
+                  0000000,
+                  'targetNameReached',
+                  {
+          'order_price': 100,
+          'currency': 'RUB',
+        },
                 );
               },
               child: Text('Test hit'),

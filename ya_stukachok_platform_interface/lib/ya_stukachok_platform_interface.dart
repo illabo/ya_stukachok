@@ -25,6 +25,5 @@ abstract class YaStukachokPlatform extends PlatformInterface {
     int counterId,
     String target,
     Map<String, dynamic> parameters,
-    Function callback,
   );
 }

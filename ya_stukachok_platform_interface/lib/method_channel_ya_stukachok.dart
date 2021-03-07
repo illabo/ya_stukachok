@@ -26,6 +26,5 @@ class MethodChannelYaStukachok extends YaStukachokPlatform {
     int counterId,
     String target,
     Map<String, dynamic> parameters,
-    Function callback,
   ) {}
 }

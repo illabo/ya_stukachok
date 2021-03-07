@@ -78,7 +78,7 @@ packages:
       name: json_annotation
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
+    version: "3.1.1"
   matcher:
     dependency: transitive
     description:
@@ -173,10 +173,9 @@ packages:
     description:
       path: ya_stukachok_platform_interface
       ref: HEAD
-      resolved-ref: dc3485000a4ba886235dca44c4ad84fe78a8ba58
+      resolved-ref: "8fbc8f49c777336e8db98f385fe9bef8c49a8cb4"
       url: "https://github.com/illabo/ya_stukachok.git"
     source: git
     version: "0.0.1"
 sdks:
   dart: ">=2.12.0-0.0 <3.0.0"
-  flutter: ">=1.22.0"
